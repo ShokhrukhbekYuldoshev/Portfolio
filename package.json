@@ -1,5 +1,5 @@
 {
-  "name": "vue-portfolio",
+  "name": "shokhrukhbek-yuldoshev-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "emailjs-com": "^3.2.0",
+    "firebase": "8.0.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
