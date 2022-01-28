@@ -4,11 +4,14 @@
     <img src="../assets/images/logo.jpg" alt="" />
     <div class="about__content">
       <p>
-        Hello! I am Shokhrukhbek Yuldoshev, full-stack developer from Samarkand
-        Region, Uzbekistan. I am a self-taught developer with a passion for web
-        development. I have a strong background in web development and have
-        experience in building web applications using Vue.js, React.js, Node.js,
-        and MongoDB. I also know languages like Python, C and SQL.
+        Hello! I am Shokhrukhbek Yuldoshev,
+        <strong>full-stack, mobile developer</strong> from Samarkand Region,
+        Uzbekistan. I am a self-taught developer with a passion for web and
+        mobile development. I have a strong background in web development and
+        have experience in building web, mobile applications using
+        <strong>Vue.js, React.js, Node.js</strong>, and
+        <strong>MongoDB</strong>. I also know languages like
+        <strong>Python, C, C++, Dart(Flutter)</strong> and <strong>SQL</strong>.
       </p>
       <a class="btn cta" @click="handleClick">Hire me</a>
     </div>
@@ -68,6 +71,8 @@ p {
 @media screen and (max-width: 800px) {
   .about {
     padding: 0 3.2rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   p {
@@ -77,28 +82,15 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .about__content {
+    width: 80%;
+  }
   .about {
     padding: 0 1.6rem;
   }
 
-  p {
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-
   img {
     width: 20.8rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .about {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about__content {
-    width: 80%;
   }
 }
 </style>
