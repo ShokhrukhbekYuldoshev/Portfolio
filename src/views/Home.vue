@@ -4,9 +4,9 @@
       <div class="content">
         <h1>Simply The Best</h1>
         <p>
-          Hello! I am Shokhrukhbek Yuldoshev, full-stack developer from
-          Samarkand Region, Uzbekistan. I am a self-taught developer with a
-          passion for web development.
+          Hello! I am Shokhrukhbek Yuldoshev, flutter developer from Samarkand,
+          Uzbekistan. I am a self-taught developer with a passion for flutter
+          and web development.
         </p>
         <br />
         <button @click="handleClick">Read more</button>

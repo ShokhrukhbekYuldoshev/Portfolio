@@ -5,13 +5,16 @@
     <div class="about__content">
       <p>
         Hello! I am Shokhrukhbek Yuldoshev,
-        <strong>full-stack, mobile developer</strong> from Samarkand Region,
-        Uzbekistan. I am a self-taught developer with a passion for web and
-        mobile development. I have a strong background in web development and
-        have experience in building web, mobile applications using
-        <strong>Vue.js, React.js, Node.js</strong>, and
-        <strong>MongoDB</strong>. I also know languages like
-        <strong>Python, C, C++, Dart(Flutter)</strong> and <strong>SQL</strong>.
+        <strong>flutter developer</strong> from Samarkand, Uzbekistan. I am a
+        self-taught developer with a passion for
+        <strong>flutter and web development</strong>. I have a strong background
+        in development and have experience in building mobile, desktop and web
+        applications using
+        <strong
+          >Dart(Flutter), Vue.js, React.js, Node.js, Django, SQL,
+          Firebase</strong
+        >
+        and <strong>MongoDB</strong>.
       </p>
       <a class="btn cta" @click="handleClick">Hire me</a>
     </div>

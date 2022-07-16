@@ -1,20 +1,17 @@
 <template>
   <div class="project">
-    <a target="_blank" :href="link">
-      <img :src="require('../assets/images/' + image)" alt="Project Image" />
-    </a>
-
-    <h2>{{ title }}</h2>
-    <p>
-      {{ description }}
-    </p>
+    <img
+      :src="require('../assets/images/' + image)"
+      alt="Project Image"
+      class="project-image"
+    />
   </div>
 </template>
 
 <script>
 export default {
   name: "Project",
-  props: ["link", "image", "title", "description"],
+  props: ["image"],
 };
 </script>
 
@@ -28,6 +25,13 @@ export default {
   margin: 0 auto;
   max-width: 600px;
   padding: 0 20px;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 0 auto;
 }
 
 h2 {

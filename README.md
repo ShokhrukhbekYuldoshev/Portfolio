@@ -1,4 +1,4 @@
-# shokhrukhbek-yuldoshev-portfolio
+# Shokhrukhbek Yuldoshev's Portfolio
 
 ## Project setup
 

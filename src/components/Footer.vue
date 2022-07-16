@@ -5,7 +5,7 @@
       <a href="https://github.com/ShokhrukhbekYuldoshev" target="_blank">
         <i class="fa-brands fa-github"></i>
       </a>
-      <a href="https://t.me/shokhrukhbekyuldoshev" target="_blank">
+      <a href="https://t.me/therealfreedom" target="_blank">
         <i class="fa-brands fa-telegram"></i>
       </a>
       <a href="https://twitter.com/ShokhrukhbekY" target="_blank">
